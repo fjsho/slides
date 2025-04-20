@@ -14,7 +14,18 @@ mkdir -p "${slide_dir}/assets"
 cat <<EOL > "${slide_dir}/index.md"
 ---
 marp: true
+theme: gaia
+
+header: '${slide_name}'
+footer: '@fujishiro'
+
+size: 16:9
+headingDivider: 1
+paginate: true
 ---
+
+<!-- タイトル用書式：色反転＋中央寄せ -->
+<!-- _class : lead invert-->
 
 # ${slide_name}
 
