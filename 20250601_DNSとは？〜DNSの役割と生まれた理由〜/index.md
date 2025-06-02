@@ -49,11 +49,17 @@ _[Domain Name System | wikipedia](https://en.wikipedia.org/wiki/Domain_Name_Syst
 
 # DNS とはどのようなシステムか
 
+### ドメイン名を IP アドレスに変換すること
+
+# DNS とはどのようなシステムか
+
 ### ドメイン名を IP アドレスに変換すること = 名前解決
 
 # DNS とはどのようなシステムか
 
 ### ドメイン名を IP アドレスに変換すること = 名前解決
+
+### 具体例
 
 ```
 $ dig <ドメイン名> +short
@@ -63,6 +69,8 @@ $ dig <ドメイン名> +short
 # DNS とはどのようなシステムか
 
 ### ドメイン名を IP アドレスに変換すること = 名前解決
+
+### 具体例
 
 ```
 $ dig google.com +short
